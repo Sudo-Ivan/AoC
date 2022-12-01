@@ -6,7 +6,7 @@
 
 #### Ver: ```3.9.13```
 
-- [Day 1](./2022/day1/day1.py)
+- [Day 1](https://github.com/Sudo-Ivan/AoC/blob/main/2022/Day%201/day1.py)
 - [Day 2](Not yet available)
 ....
 
