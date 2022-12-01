@@ -22,6 +22,6 @@
 
 ### For Python
 
-1. [Dump your data in csv file](2022/data/day1.csv)
+1. [Dump your data in csv file](2022/Day%201/data/day1.csv)
 
 2. [Run day1.py script](2022/Day%201/day1.py)
