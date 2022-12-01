@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("data/day1.csv")
+	file, err := os.Open("data/day1.txt")
 	if err != nil {
 		fmt.Println(err)
 	}
