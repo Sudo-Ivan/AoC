@@ -1,13 +1,13 @@
-with open("2022\Day 1\data\day1.csv", "r") as f:
-    elfList = []
-    currentElf = 0
+with open("2022\Day 1\data\day1.txt", "r") as f:
+    a = []
+    b = 0
     for i, line in enumerate(f):
         if line.strip():
-            currentElf += int(line.strip())
+            b += int(line.strip())
         else:
-            elfList.append(currentElf)
-            currentElf = 0
-    partOneSolution = sorted(elfList,reverse=True)[0]
-    partTwoSolution = sum(sorted(elfList,reverse=True)[:3])
-    print("Part 1: " + str(partOneSolution))
-    print("Part 2: " + str(partTwoSolution))
+            a.append(b)
+            b = 0
+    p1 = sorted(a,reverse=True)[0]
+    p2 = sum(sorted(a,reverse=True)[:3])
+    print("Part 1: " + str(p1))
+    print("Part 2: " + str(p2))

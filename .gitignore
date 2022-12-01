@@ -1,1 +1,7 @@
 .dccache
+yarn.lock
+package.json
+package-lock.json
+.vscode
+node_modules
+timer.py
