@@ -2,6 +2,8 @@
 
 ## Currently available solutions
 
+### I mainly use this to practice my python and rust skills
+
 ### Python
 
 #### Ver: `3.9.13`
