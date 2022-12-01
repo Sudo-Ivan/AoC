@@ -1,4 +1,4 @@
-with open("2022\Day 1\data\day1.txt", "r") as f:
+with open("2022\Day 1\data\day1.txt") as f:
     a = []
     b = 0
     for i, line in enumerate(f):
