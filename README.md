@@ -1,4 +1,4 @@
-# Advent of Code 2022
+# Advent of Code 2022 Ivan Edition
 
 ## Currently available solutions
 
@@ -16,12 +16,7 @@
 
 ### Go
 
-.... WIP
+#### Ver: ```1.19.3```
 
-## How to run
-
-### For Python
-
-1. [Dump your data in csv file](2022/Day%201/data/day1.csv)
-
-2. [Run day1.py script](2022/Day%201/day1.py)
+- [Day 1](2022/Day%201/day1.go)
+- [Day 2](Not yet available)
