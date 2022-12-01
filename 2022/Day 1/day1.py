@@ -1,4 +1,3 @@
-#open file in \data\ folder
 with open("2022\data\day1.csv", "r") as f:
     elfList = []
     currentElf = 0
@@ -12,4 +11,3 @@ with open("2022\data\day1.csv", "r") as f:
     partTwoSolution = sum(sorted(elfList,reverse=True)[:3])
     print("Part 1: " + str(partOneSolution))
     print("Part 2: " + str(partTwoSolution))
-
