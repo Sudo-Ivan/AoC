@@ -18,7 +18,7 @@
 
 .... WIP
 
-## Hwo to run
+## How to run
 
 ### For Python
 
