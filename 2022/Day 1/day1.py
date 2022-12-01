@@ -1,4 +1,4 @@
-with open("2022\data\day1.csv", "r") as f:
+with open("2022\Day 1\data\day1.csv", "r") as f:
     elfList = []
     currentElf = 0
     for i, line in enumerate(f):
