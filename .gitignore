@@ -6,3 +6,5 @@ package-lock.json
 node_modules
 timer.py
 tools
+*.lock
+target
