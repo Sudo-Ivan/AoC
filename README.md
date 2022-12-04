@@ -2,7 +2,7 @@
 
 ## Currently available solutions
 
-### I mainly use this to practice my python and rust skills
+### I use python because it fast at processing lots of data (most of the times lol) anyways I want to also do them in Rust when I get the time.
 
 ### Python
 
@@ -13,7 +13,4 @@
 - [Day 3](2022/Day%203/day3.py)
 
   ....
-
-### Rust
-
-.... WIP
+  
