@@ -12,5 +12,5 @@
 - [Day 2](2022/Day%202/day2.py)
 - [Day 3](2022/Day%203/day3.py)
 - [Day 4](2022/Day%204/day4.py)
+- [Day 5](2022/Day%205/day5.py)
   ....
-  
