@@ -1,7 +1,6 @@
 def detect_packet_start(data):
 
   last_four = []
-
   for i, c in enumerate(data):
     last_four.append(c)
     if len(last_four) > 4:
@@ -9,13 +8,6 @@ def detect_packet_start(data):
     if len(set(last_four)) == 4:
       return i+1
   return -1
-
-with open("input.txt", "r") as f:
-  data = f.read()
-
-packet_start = detect_packet_start(data)
-
-print(packet_start)
 
 def detect_message_start(data):
 
@@ -35,6 +27,8 @@ def detect_message_start(data):
 with open("input.txt") as f:
   data = f.read()
 
+packet_start = detect_packet_start(data)
 message_start = detect_message_start(data)
 
+print(packet_start)
 print(message_start)
